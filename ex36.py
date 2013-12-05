@@ -84,6 +84,8 @@ def open_fire_escape(game_world):
         if game_world.brute_force_failed:
             print "You failed your attempt to brute force the door"
             return first_encounter
+        else:
+            None
         print "You run out the fire escape to freedom!"
         win(game_world)
     else:
