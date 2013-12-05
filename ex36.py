@@ -70,7 +70,7 @@ def first_encounter(game_world):
     if next == 'open fire escape' and game_world.brute_force_failed:
         print "You cannot attempt this again."
         return first_encounter
-    elif next == 'open fire escape'and not game_world.brute_force_failed:
+    elif next == 'open fire escape' and not game_world.brute_force_failed:
         return open_fire_escape(game_world)
     else:
         print "I don't understand."
